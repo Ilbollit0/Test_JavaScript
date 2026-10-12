@@ -55,9 +55,10 @@ console.log(`Cinque anni fa avevo ${etaOggi - 5} anni`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const eta = 25;
-const maggiorenne = eta >= 18;
-console.log(`Età: ${eta} Maggiorenne:${maggiorenne}`);
+const age = 25;
+const adult = age >= 18;
+console.log(`Età: ${age} Maggiorenne:${adult}`);
+
 /* ESERCIZIO 5 — Tipo del valore
    Cinque variabili: una string, una number, una boolean, una null, una undefined.
    Stampa per ognuna: "nome è di tipo: string" usando typeof.
@@ -65,6 +66,20 @@ console.log(`Età: ${eta} Maggiorenne:${maggiorenne}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const text = "ciao";
+const number5 = 42;
+const vero = true;
+// typeof null restituisce "object": è un bug storico di JavaScript
+// presente fin dalla prima versione del linguaggio e mantenuto
+// per non rompere il codice esistente. null NON è un oggetto.
+const vuoto = null;
+let indefinito;
+console.log(`testo è di tipo: ${typeof testo}`);
+console.log(`numero5 è di tipo: ${typeof number5}`);
+console.log(`vero è di tipo: ${typeof vero}`);
+console.log(`vuoto è di tipo: ${typeof vuoto}`);
+console.log(`indefinito è di tipo: ${typeof indefinito}`);
 
 /* ESERCIZIO 6 — === vs ==
    numero = 5
