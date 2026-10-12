@@ -90,6 +90,12 @@ console.log(`indefinito è di tipo: ${typeof indefinito}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const num5= 5;
+const string5= 5;
+console.log(num5==sting5); //True
+console.log(num5===string5);//Flase
+// == confronta solo il valore convertendo i tipi (coercizione), === confronta valore E tipo.
+
 /* ESERCIZIO 7 — Conversioni implicite
    Senza eseguire il codice, prevedi in commento il risultato di queste 4 espressioni.
    Poi stampale per verificare.
@@ -101,6 +107,12 @@ console.log(`indefinito è di tipo: ${typeof indefinito}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+/* ESERCIZIO 7 — Conversioni implicite */
+// "5" + 3     -> "53" (con una stringa, + concatena)
+// "5" - 3     -> 2    (- converte la stringa in numero)
+// true + 1    -> 2    (true diventa 1)
+// "10" * "2"  -> 20   (* converte entrambe in numeri)
+
 /* ESERCIZIO 8 — Classificazione numero
    Variabile "n".
    Usando % e operatori logici, stampa tre righe:
@@ -110,6 +122,8 @@ console.log(`indefinito è di tipo: ${typeof indefinito}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo
    Tre const "a", "b", "c" (lunghezze dei lati).
