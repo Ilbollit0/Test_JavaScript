@@ -122,6 +122,12 @@ console.log(num5===string5);//Flase
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const n = 12;
+const pari = n % 2 === 0;
+const div3 = n % 3 === 0;
+console.log(`${n} è pari: ${pari}`);
+console.log(`${n} è divisibile per 3: ${div3}`);
+console.log(`${n} è pari E divisibile per 3: ${pari && div3}`);
 
 
 
